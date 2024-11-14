@@ -1,0 +1,76 @@
+*{
+    font-family: "Oswald", sans-serif;
+    
+}
+
+.a{
+    
+   padding: 40px;
+   color: rgb(255, 0, 0);
+   font-weight:800;
+
+}
+body{
+    /* height: 100vh; */
+    background-color: teal;
+    /* background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/94eb5ad7-10d8-4cca-bf45-ac52e0a052c0/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg); */
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/94eb5ad7-10d8-4cca-bf45-ac52e0a052c0/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.c{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+.b{
+    /* padding-right: 10px; */
+    padding: 9px 30px;
+    /* font-size: medium; */
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    border-radius: 10px;
+    font-size: small;
+    
+
+}
+.email{
+
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     justify-content:  center;
+     gap: 10px;
+}
+.inputserchbox{
+   width: 500px;
+   height: 30px;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+.b1{
+    padding: 10px 30px;
+    /* font-size: medium; */
+    height: 55px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    border-radius: 10px;
+    font-size: small;
+
+}
+.b1:hover{
+    scale: 1.1;
+    transition:ease-in-out 0.1s;
+}
+.heading{
+      font-size: 3rem;
+       text-align: center;
+        width: 80%;
+        font-weight: 600;
+        color: aliceblue;
+}
+

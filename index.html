@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie flix</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+    
+    
+</head>
+<body>
+    <div class="c">
+    <h1 class = 'a'>
+    Movie flex
+    </h1>
+    <div>
+    <button class = 'b'>    
+        sign in 
+    </button>
+    <!-- <button class='b'>
+        login in
+    </button> -->
+    </div>
+    
+    </div>
+    <di v class="email">
+        <h1 class="heading">Enter Your Movie Name Here And get the latest details of the Movie</h1>
+        <div>
+            <input type="email" placeholder="Enter Your Movie Name" class="inputserchbox">
+            <button id="searchButton" class="b1">
+                Search
+            </button>
+            
+        </div>
+    </di>
+        
+</body>
+<script>
+    document.getElementById("searchButton").addEventListener("click", function() {
+        // Get the value of the input field
+        var movieName = document.querySelector(".inputserchbox").value;
+        
+        // Construct the URL for the search page
+        var searchPageUrl = "details.html?movie=" + encodeURIComponent(movieName);
+        
+        // Redirect to the search page
+        window.location.href = searchPageUrl;
+    });
+</script>
+
+</html>
