@@ -6,7 +6,7 @@ const options = {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjYzA3NGI3OTZmMDU0ZGEzMTA3N2Q5YThmYzlhOGQ4MCIsInN1YiI6IjY1ZTYzNDY0OTQ1MWU3MDE0YTVhMDMxNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.CQi95mBVyr4-TzusaW4vgQmxePK8J1v3Ig5xoDkT-G4'
+    Authorization: `Bearer ${TMDB_TOKEN}`
   }
 };  
 
