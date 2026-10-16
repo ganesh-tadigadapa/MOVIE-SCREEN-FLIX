@@ -39,7 +39,7 @@ Open http://localhost:8000.
 
 Use a local server, and serve the folder as the site root. The movie page links to `/index.html` and `/search.png`, and those root paths do not work if you open the files straight from disk.
 
-**TMDB token:** `script.js` and `movie-details.js` each send a TMDB read access token in the `Authorization` header. To use your own, create a free TMDB account, copy your API Read Access Token, and put it in both files.
+**TMDB token:** the TMDB read access token lives in `config.js`, which every page loads first, and is sent in the `Authorization` header. It is visible to anyone using the site. To use your own, create a free TMDB account, generate a read access token at https://www.themoviedb.org/settings/api, and replace the value of `TMDB_TOKEN` in `config.js`.
 
 ## Project structure
 
@@ -48,6 +48,7 @@ MOVIE-SCREEN-FLIX/
 ├── index.html           home page with the search box
 ├── style.css            styles for the home page
 ├── details.html         search results page
+├── config.js            TMDB token shared by every page
 ├── script.js            calls TMDB search and builds the results list
 ├── movies_list.css      styles for the results list
 ├── movie_details.html   single movie page
