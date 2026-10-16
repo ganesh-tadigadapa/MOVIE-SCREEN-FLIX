@@ -19,8 +19,6 @@ A plain HTML, CSS and JavaScript site made of three pages. All movie data comes 
 - **Trailer:** **Watch Trailer** finds the movie's YouTube trailer on TMDB and plays it in an embedded player. **Stop Trailer** removes the player and brings back the backdrop.
 - A **search** button on the movie page goes back to the search page.
 
-The **sign in** button on the home page is only for looks. It does nothing yet.
-
 ## Tech stack
 
 - HTML, CSS, vanilla JavaScript (`fetch`)
